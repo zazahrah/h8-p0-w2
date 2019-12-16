@@ -1,0 +1,57 @@
+1. Newton Second Law
+
+STORE 'm' with value 600 kg
+STORE 'a' with value 2m/s2
+
+CALCULATE value m multiply by value a
+
+SET 'ΣF' to the result of calculation
+
+DISPLAY 'ΣF'
+
+----------------------------------------------------------------------------------
+
+2. Tahun Kabisat
+
+STORE 'year' with any value
+
+IF 'year' modulo by 4 equals to 0 AND 'year' modulo by 100 is not equals to 0
+DISPLAY 'Tahun Kabisat!'
+
+IF 'year' modulo by 4 AND by 100 AND by 400 equals to 0
+DISPLAY 'Tahun Kabisat!'
+
+ELSE
+DISPLAY 'Bukan TAhun Kabisat!'
+
+----------------------------------------------------------------------------------
+
+3. Laundry Day 
+
+STORE 'T-shirt' to 1
+
+WHILE 'T-shirt' < 20
+DISPLAY 'T-shirt'
+CALCULATE 'T-shirt' sum 1
+STORE 'Current amount of t-shirt' to the result of calculation
+
+IF 'Current amount of t-shirt' = 20
+DO 'Turn on the washing machine'
+
+----------------------------------------------------------------------------------
+
+4. Periksa Kuku
+
+STORE 'students' by 1
+
+WHILE 'students' < 40
+    DO 'periksa kuku'
+
+IF  Kuku siswa/i panjang
+    DO 'Hukum siswa/i'
+ELSE 
+    DO 'Memuji siswa/i'
+
+CALCULATE 'students' sum 1
+STORE 'students' to the result of calculation
+
