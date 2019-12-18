@@ -16,11 +16,11 @@ console.log('===================================================================
 
 // 2. Melakuka Looping Menggunakan For
 console.log('LOOPING PERTAMA');
-for(i=0; i<=20; i++) {
+for(i=0; i<20; i++) {
   console.log(i + 1 + " - I love coding")
 }
 console.log("LOOPING KEDUA");
-for(i=20; i>=0; i--) {
+for(i=20; i>0; i--) {
   console.log(i + " - I will become fullstack developer")
 }
 
