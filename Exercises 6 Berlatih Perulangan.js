@@ -29,16 +29,16 @@ console.log('===================================================================
 //3. Angka Ganjil dan Genap
 for(i=1; i<=100; i++) {
   if(i % 2 == 0) {
-    console.log(i , "GENAP")
+    console.log(i + " GENAP")
   }
   else {
-    console.log(i , "GANJIL")
+    console.log(i + " GANJIL")
   }
 }
   
 for(j=1; j<=100; j+=2) {
   if(j % 3 == 0) {
-    console.log(j , " KELIPATAN 3")
+    console.log(j + " KELIPATAN 3")
   }
   else {
     console.log("")
@@ -47,7 +47,7 @@ for(j=1; j<=100; j+=2) {
   
 for(k=1; k<=100; k+=5) {
   if(k % 6 == 0) {
-    console.log(k , " KELIPATAN 6")
+    console.log(k + " KELIPATAN 6")
   }
   else {
     console.log("")
@@ -56,7 +56,7 @@ for(k=1; k<=100; k+=5) {
   
 for(l=1; l<=100; l+=9) {
   if(l % 10 == 0) {
-    console.log(l , " KELIPATAN 10")
+    console.log(l + " KELIPATAN 10")
   }
   else {
     console.log("")
