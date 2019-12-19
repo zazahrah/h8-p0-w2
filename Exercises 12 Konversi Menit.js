@@ -1,12 +1,12 @@
 function konversiMenit(menit) {
     // you can only write your code here!
-    var minutes = Math.floor(menit/60).toString()
-    let seconds = (menit % 60).toString()
+    var hour = Math.floor(menit/60).toString()
+    let minutes = (menit % 60).toString()
 
-    if(seconds.length === 1 && seconds !== "0") {
-        seconds = "0" + seconds
+    if(minutes.length === 1 && minutes !== "0") {
+        minutes = "0" + minutes
     }
-    return minutes + ":" + seconds
+    return hour + ":" + minutes
 }
   
   // TEST CASES

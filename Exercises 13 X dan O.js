@@ -3,11 +3,11 @@ function xo(str) {
     let jumlahX = 0
     let jumlahO = 0
     for(i=0; i<str.length; i++) {
-      if(str[i] == "x") {
+      if(str[i] === "x") {
         jumlahX++
       }
-      if(str[i] == 'o') {
-        jumlahO ++
+      if(str[i] === 'o') {
+        jumlahO++
       }
     }
     if(jumlahX == jumlahO) {
